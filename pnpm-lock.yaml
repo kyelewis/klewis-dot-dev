@@ -11,6 +11,12 @@ importers:
     devDependencies:
       '@exogee/graphweaver-cli': 0.1.14
 
+  packages/config-function:
+    specifiers:
+      esbuild: 0.17.19
+    devDependencies:
+      esbuild: 0.17.19
+
   packages/web:
     specifiers:
       prettier: 2.8.8

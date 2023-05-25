@@ -1,0 +1,15 @@
+{
+  "name": "@kyedoesdev/klewis-dot-dev-config-function",
+  "private": true,
+  "version": "0.1.0",
+  "description": "klewis.dev config function",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild --bundle src/index.ts --outdir=dist"
+  },
+  "author": "Kye Lewis <kye@klewis.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.17.19"
+  }
+}

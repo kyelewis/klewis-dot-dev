@@ -1,7 +1,7 @@
 {
-  "name": "@kyedoesdev/klewis-dot-dev-web",
+  "name": "@kyedoesdev/klewis-dot-me-web",
   "version": "1.0.0",
-  "description": "klewis.dev web",
+  "description": "klewis.me web",
   "main": "dist/index.html",
   "scripts": {
     "start": "vite serve",
