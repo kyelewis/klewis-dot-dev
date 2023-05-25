@@ -4,7 +4,7 @@
   "scripts": {
     "start": "pnpm --recursive start",
     "build": "pnpm --recursive build",
-    "copy": "./scripts/copy-public.sh && ./scripts/copy-edge-functions.sh",
+    "copy": "./scripts/copy-public.sh && ./scripts/copy-functions.sh",
     "format": "pnpm --recursive format",
     "test": "pnpm --recursive test" 
   },

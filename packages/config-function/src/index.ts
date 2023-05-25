@@ -1,5 +1,6 @@
-export default () => new Response("OK");
-
-export const config = {
-	path: "/config"
+export const handler = () => {
+	return {
+		statusCode: 200,
+		body: "OK"
+	}
 };
