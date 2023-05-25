@@ -1,0 +1,16 @@
+{
+  "name": "@kyedoesdev/klewis-dot-dev-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "klewis.dev backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "graphweaver start",
+    "build": "graphweaver build" 
+  },
+  "author": "Kye Lewis <kye@klewis.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@exogee/graphweaver-cli": "0.1.14"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@kyedoesdev/klewis-dot-dev-web",
+  "version": "1.0.0",
+  "description": "klewis.dev web",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "vite serve",
+    "build": "vite build",
+    "format": "prettier --write .",
+    "test": "npm run test:format",
+    "test:format": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "Kye Lewis <kye@klewis.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.8.8",
+    "vite": "4.3.8"
+  }
+}

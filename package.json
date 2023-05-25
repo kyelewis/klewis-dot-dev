@@ -1,0 +1,12 @@
+{
+  "name": "@kyedoesdev/klewis-dot-dev",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "pnpm --recursive start",
+    "build": "pnpm --recursive build",
+    "format": "pnpm --recursive format",
+    "test": "pnpm --recursive test" 
+  },
+  "author": "Kye Lewis <kye@klewis.me>",
+  "license": "MIT"
+}
