@@ -5,7 +5,7 @@
   "description": "klewis.dev config function",
   "main": "dist/index.js",
   "scripts": {
-    "build": "esbuild --bundle src/index.ts --outdir=dist"
+    "build": "esbuild --bundle src/index.ts --platform=node --outdir=dist"
   },
   "author": "Kye Lewis <kye@klewis.me>",
   "license": "MIT",
