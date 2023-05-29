@@ -1,0 +1,23 @@
+{
+  "name": "@kyedoesdev/klewis-dot-me-components",
+  "version": "1.0.0",
+  "description": "klewis.me web components",
+  "module": "./dist/components/index.js",
+  "types": "./dist/types/components.d.ts",
+  "scripts": {
+    "build": "stencil build",
+    "format": "prettier --write .",
+    "test": "npm run test:format",
+    "test:format": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "Kye Lewis <kye@klewis.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
+  "dependencies": {
+    "@stencil/core": "3.3.0",
+    "typescript": "5.0.2"
+  }
+}

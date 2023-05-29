@@ -16,5 +16,8 @@
   "devDependencies": {
     "prettier": "2.8.8",
     "vite": "4.3.8"
+  },
+  "dependencies": {
+    "@kyedoesdev/klewis-dot-me-components": "workspace:1.0.0"
   }
 }

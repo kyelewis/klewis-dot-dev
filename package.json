@@ -2,8 +2,9 @@
   "name": "@kyedoesdev/klewis-dot-me",
   "version": "0.1.0",
   "scripts": {
-    "start": "pnpm --recursive start",
-    "build": "pnpm --recursive build",
+    "start": "pnpm build-dependencies && pnpm --recursive start",
+    "build": "pnpm build-dependencies && pnpm --filter '!components' --recursive build",
+    "build-dependencies": "pnpm --filter 'components' build",
     "copy": "./scripts/copy-public.sh && ./scripts/copy-functions.sh",
     "format": "pnpm --recursive format",
     "test": "pnpm --recursive test" 
