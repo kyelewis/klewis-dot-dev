@@ -1,0 +1,24 @@
+{
+    "name": "@kyedoesdev/klewis-dot-me-api",
+    "version": "0.1.0",
+    "description": "klewis.me API GraphWeaver Project",
+    "scripts": {
+        "build": "graphweaver build",
+        "start": "graphweaver start"
+    },
+    "dependencies": {
+        "@as-integrations/aws-lambda": "2.0.1",
+        "@exogee/graphweaver": "0.1.16",
+        "@exogee/graphweaver-apollo": "0.1.16",
+        "@exogee/graphweaver-cli": "0.1.16",
+        "@mikro-orm/core": "5.7.10",
+        "class-validator": "0.14.0",
+        "graphql": "16.6.0",
+        "reflect-metadata": "0.1.13",
+        "type-graphql": "2.0.0-beta.2"
+    },
+    "devDependencies": {
+        "@types/node": "14.14.10",
+        "typescript": "5.0.2"
+    }
+}
