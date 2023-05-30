@@ -7,8 +7,11 @@
     "build-dependencies": "pnpm --filter 'components' build",
     "copy": "./scripts/copy-public.sh && ./scripts/copy-functions.sh",
     "format": "pnpm --recursive format",
-    "test": "pnpm --recursive test" 
+    "test": "pnpm --recursive test"
   },
   "author": "Kye Lewis <kye@klewis.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "0.17.19"
+  }
 }
