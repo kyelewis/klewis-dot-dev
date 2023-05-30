@@ -12,6 +12,7 @@
   "author": "Kye Lewis <kye@klewis.me>",
   "license": "MIT",
   "dependencies": {
+    "encoding": "0.1.13",
     "esbuild": "0.17.19"
   }
 }
